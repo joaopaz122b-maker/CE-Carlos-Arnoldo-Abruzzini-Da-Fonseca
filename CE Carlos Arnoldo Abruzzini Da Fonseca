@@ -1,247 +1,127 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <!-- Meta Tags Essenciais -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Projeto de conscientização sobre bullying e saúde mental do CE Carlos Arnoldo Abruzzini Da Fonseca. Informação, prevenção e apoio.">
-    <meta name="keywords" content="bullying, saúde mental, escola, CE Carlos Arnoldo Abruzzini Da Fonseca, prevenção, apoio emocional">
-    <meta name="author" content="CE Carlos Arnoldo Abruzzini Da Fonseca">
-    <title>CE Carlos Arnoldo Abruzzini Da Fonseca | Conscientização Contra o Bullying</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Projeto de conscientização sobre bullying e saúde mental do CE Carlos Arnoldo Abruzzini Da Fonseca. Informação, prevenção e apoio.">
+<meta name="keywords" content="bullying, saúde mental, escola, prevenção, apoio emocional">
+<meta name="author" content="CE Carlos Arnoldo Abruzzini Da Fonseca">
+<title>CE Carlos Arnoldo Abruzzini Da Fonseca | Conscientização Contra o Bullying</title>
 
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: Arial, Helvetica, sans-serif;
-        }
-
-        body {
-            background-color: #f4f6f9;
-            color: #333;
-            line-height: 1.6;
-        }
-
-        header {
-            background: #1e3a8a;
-            color: #fff;
-            padding: 20px 0;
-        }
-
-        .container {
-            width: 90%;
-            max-width: 1100px;
-            margin: auto;
-        }
-
-        nav {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        nav ul {
-            list-style: none;
-            display: flex;
-            gap: 20px;
-        }
-
-        nav a {
-            color: #fff;
-            text-decoration: none;
-            font-weight: bold;
-        }
-
-        nav a:hover {
-            text-decoration: underline;
-        }
-
-        .logo {
-            font-size: 20px;
-            font-weight: bold;
-        }
-
-        .hero {
-            background: linear-gradient(rgba(30,58,138,0.8), rgba(30,58,138,0.8)),
-                        url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b') no-repeat center center/cover;
-            color: #fff;
-            padding: 100px 20px;
-            text-align: center;
-        }
-
-        .hero h1 {
-            font-size: 40px;
-            margin-bottom: 20px;
-        }
-
-        .hero p {
-            font-size: 18px;
-            margin-bottom: 30px;
-        }
-
-        .btn {
-            display: inline-block;
-            padding: 12px 25px;
-            background: #2563eb;
-            color: #fff;
-            text-decoration: none;
-            border-radius: 5px;
-            transition: 0.3s;
-        }
-
-        .btn:hover {
-            background: #1d4ed8;
-        }
-
-        section {
-            padding: 60px 20px;
-        }
-
-        section h2 {
-            text-align: center;
-            margin-bottom: 30px;
-            font-size: 28px;
-            color: #1e3a8a;
-        }
-
-        .grid {
-            display: grid;
-            gap: 20px;
-        }
-
-        .grid-3 {
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-        }
-
-        .card {
-            background: #fff;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-        }
-
-        .card h3 {
-            margin-bottom: 15px;
-            color: #2563eb;
-        }
-
-        .alert {
-            background: #fee2e2;
-            color: #b91c1c;
-            padding: 20px;
-            border-radius: 8px;
-            text-align: center;
-            font-weight: bold;
-            margin-top: 20px;
-        }
-
-        footer {
-            background: #1e3a8a;
-            color: #fff;
-            text-align: center;
-            padding: 25px 20px;
-            margin-top: 40px;
-        }
-
-        footer p {
-            margin: 5px 0;
-        }
-
-        @media (max-width: 600px) {
-            .hero h1 {
-                font-size: 28px;
-            }
-
-            nav ul {
-                flex-direction: column;
-                gap: 10px;
-            }
-        }
-    </style>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial,Helvetica,sans-serif}
+body{background:#f4f6f9;color:#333;line-height:1.6}
+header{background:#1e3a8a;color:#fff;padding:20px 0}
+.container{width:90%;max-width:1100px;margin:auto}
+nav{display:flex;justify-content:space-between;align-items:center}
+nav ul{list-style:none;display:flex;gap:20px}
+nav a{color:#fff;text-decoration:none;font-weight:bold}
+nav a:hover{text-decoration:underline}
+.logo{font-size:20px;font-weight:bold}
+.hero{background:linear-gradient(rgba(30,58,138,.8),rgba(30,58,138,.8)),url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b') no-repeat center center/cover;color:#fff;padding:100px 20px;text-align:center}
+.hero h1{font-size:40px;margin-bottom:20px}
+.hero p{font-size:18px;margin-bottom:30px}
+.btn{display:inline-block;padding:12px 25px;background:#2563eb;color:#fff;text-decoration:none;border-radius:5px;transition:.3s}
+.btn:hover{background:#1d4ed8}
+section{padding:60px 20px}
+section h2{text-align:center;margin-bottom:30px;font-size:28px;color:#1e3a8a}
+.grid{display:grid;gap:20px}
+.grid-3{grid-template-columns:repeat(auto-fit,minmax(250px,1fr))}
+.card{background:#fff;padding:20px;border-radius:8px;box-shadow:0 2px 10px rgba(0,0,0,.1)}
+.card h3{margin-bottom:15px;color:#2563eb}
+.alert{background:#fee2e2;color:#b91c1c;padding:20px;border-radius:8px;text-align:center;font-weight:bold;margin-top:20px}
+footer{background:#1e3a8a;color:#fff;text-align:center;padding:25px 20px;margin-top:40px}
+footer p{margin:5px 0}
+@media(max-width:600px){
+.hero h1{font-size:28px}
+nav ul{flex-direction:column;gap:10px}
+}
+</style>
 </head>
+
 <body>
 
-    <header>
-        <div class="container">
-            <nav>
-                <div class="logo">CE Carlos Arnoldo Abruzzini Da Fonseca</div>
-                <ul>
-                    <li><a href="#sobre">Sobre</a></li>
-                    <li><a href="#prevencao">Prevenção</a></li>
-                    <li><a href="#ajuda">Ajuda</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+<header>
+<div class="container">
+<nav>
+<div class="logo">CE Carlos Arnoldo Abruzzini Da Fonseca</div>
+<ul>
+<li><a href="#sobre">Sobre</a></li>
+<li><a href="#prevencao">Prevenção</a></li>
+<li><a href="#ajuda">Ajuda</a></li>
+</ul>
+</nav>
+</div>
+</header>
 
-    <section class="hero">
-        <h1>Conscientização Contra o Bullying</h1>
-        <p>Projeto desenvolvido pelo CE Carlos Arnoldo Abruzzini Da Fonseca para promover respeito, empatia e saúde mental.</p>
-        <a href="#ajuda" class="btn">Preciso de Ajuda</a>
-    </section>
+<section class="hero">
+<h1>Conscientização Contra o Bullying</h1>
+<p>Projeto desenvolvido para promover respeito, empatia e saúde mental dentro do ambiente escolar.</p>
+<a href="#ajuda" class="btn">Preciso de Ajuda</a>
+</section>
 
-    <section id="sobre">
-        <div class="container">
-            <h2>O que é Bullying?</h2>
-            <div class="grid grid-3">
-                <div class="card">
-                    <h3>Definição</h3>
-                    <p>Bullying é qualquer forma de agressão física, verbal ou psicológica repetitiva que causa dor, sofrimento e prejuízo emocional.</p>
-                </div>
-                <div class="card">
-                    <h3>Impactos</h3>
-                    <p>Pode causar ansiedade, baixa autoestima, isolamento social e até quadros de depressão.</p>
-                </div>
-                <div class="card">
-                    <h3>Importância de Falar</h3>
-                    <p>Denunciar e conversar com adultos ou responsáveis é fundamental para interromper o ciclo de violência.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+<section id="sobre">
+<div class="container">
+<h2>O que é Bullying?</h2>
+<div class="grid grid-3">
+<div class="card">
+<h3>Definição</h3>
+<p>Bullying é qualquer forma de agressão física, verbal ou psicológica repetitiva que causa sofrimento e prejuízo emocional.</p>
+</div>
+<div class="card">
+<h3>Impactos</h3>
+<p>Pode causar ansiedade, baixa autoestima, isolamento social e até quadros de depressão.</p>
+</div>
+<div class="card">
+<h3>Importância de Falar</h3>
+<p>Denunciar e conversar com adultos ou responsáveis é fundamental para interromper o ciclo de violência.</p>
+</div>
+</div>
+</div>
+</section>
 
-    <section id="prevencao">
-        <div class="container">
-            <h2>Como Parar o Bullying</h2>
-            <div class="grid grid-3">
-                <div class="card">
-                    <h3>Procure Ajuda</h3>
-                    <p>Converse com pais, professores ou responsáveis. Não enfrente isso sozinho.</p>
-                </div>
-                <div class="card">
-                    <h3>Denuncie</h3>
-                    <p>Relatar situações de agressão é essencial para proteger você e outras pessoas.</p>
-                </div>
-                <div class="card">
-                    <h3>Fortaleça sua Saúde Mental</h3>
-                    <p>Pratique atividades que tragam bem-estar e, se necessário, procure apoio psicológico.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+<section id="prevencao">
+<div class="container">
+<h2>Como Parar o Bullying</h2>
+<div class="grid grid-3">
+<div class="card">
+<h3>Procure Ajuda</h3>
+<p>Converse com pais, professores ou responsáveis. Você não precisa enfrentar isso sozinho.</p>
+</div>
+<div class="card">
+<h3>Denuncie</h3>
+<p>Relatar situações de agressão é essencial para proteger você e outras pessoas.</p>
+</div>
+<div class="card">
+<h3>Fortaleça sua Saúde Mental</h3>
+<p>Pratique atividades que tragam bem-estar e, se necessário, procure apoio psicológico.</p>
+</div>
+</div>
+</div>
+</section>
 
-    <section id="ajuda">
-        <div class="container">
-            <h2>Saúde Mental e Apoio</h2>
-            <p style="text-align:center; max-width:700px; margin: auto;">
-                Caso esteja enfrentando depressão, ansiedade intensa ou pensamentos negativos persistentes,
-                é essencial procurar ajuda profissional.
-            </p>
+<section id="ajuda">
+<div class="container">
+<h2>Saúde Mental e Apoio</h2>
+<p style="text-align:center;max-width:700px;margin:auto;">
+Caso esteja enfrentando depressão, ansiedade intensa ou pensamentos negativos persistentes,
+é essencial procurar ajuda profissional.
+</p>
 
-            <div class="alert">
-                Se você estiver em crise, ligue 188 (Centro de Valorização da Vida - atendimento 24h, gratuito e confidencial).
-            </div>
-        </div>
-    </section>
+<div class="alert">
+Se estiver em crise, ligue 188 (Centro de Valorização da Vida - atendimento 24h, gratuito e confidencial).
+</div>
+</div>
+</section>
 
-    <footer>
-        <p>&copy; 2026 CE Carlos Arnoldo Abruzzini Da Fonseca | Projeto de Conscientização</p>
-        <p><strong>Projeto criado por alunos da turma 3008:</strong></p>
-        <p>João Vitor Corrêa Paz</p>
-        <p>Luiz Cauã da Cunha Castro</p>
-        <p>Washington Ferreira da Silva</p>
-    </footer>
+<footer>
+<p>&copy; 2026 CE Carlos Arnoldo Abruzzini Da Fonseca | Projeto de Conscientização</p>
+<p><strong>Projeto criado por alunos da turma 3008:</strong></p>
+<p>João Vitor Corrêa Paz</p>
+<p>Luiz Cauã da Cunha Castro</p>
+<p>Washington Ferreira da Silva</p>
+</footer>
 
 </body>
 </html>
+
